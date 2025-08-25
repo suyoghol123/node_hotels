@@ -4,7 +4,7 @@ const db = require('./db')
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());//req.body
 
-
+//Server js file
 app.get('/', (req, res) => {
   res.send('Hello World')
 });
